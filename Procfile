@@ -1,1 +1,1 @@
-web: gunicorn restfulapichatbot.wsgi
+web: gunicorn config.wsgi --log-file -
