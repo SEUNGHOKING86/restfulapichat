@@ -22,12 +22,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '=7*jf&ni%z#_@ok73ec=*!2t0m_g-_9(w4#4)%+=1rge3=32@*')
+# SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '=7*jf&ni%z#_@ok73ec=*!2t0m_g-_9(w4#4)%+=1rge3=32@*')
+SECRET_KEY = 'goa17jbd%_ip79pet_t5b-$^91c=fe6@+nz%l44y@7=vb@qdb1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['.pythonanywhere.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -52,7 +53,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'resrfulapiserver.urls'
