@@ -4,6 +4,7 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/python-getting-started" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/python-getting-started/python-getting-started" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/restfulapichat" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/restfulapichatbot" vcs="Git" />
   </component>
 </project>

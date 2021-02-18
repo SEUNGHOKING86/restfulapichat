@@ -14,7 +14,6 @@ from django.views.decorators.csrf import csrf_exempt
 import json
 import numpy as np
 import random
-import colorama
 
 import tensorflow as tf
 from tensorflow import keras
