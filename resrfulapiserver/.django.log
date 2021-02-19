@@ -1,0 +1,5 @@
+2021-02-19 11:05:15,153 [DEBUG] [loggingtest.py:19] >> my DEBUG log
+2021-02-19 11:05:15,153 [INFO] [loggingtest.py:20] >> my INFO log
+2021-02-19 11:05:15,153 [WARNING] [loggingtest.py:21] >> my WARNING log
+2021-02-19 11:05:15,153 [ERROR] [loggingtest.py:22] >> my ERROR log
+2021-02-19 11:05:15,153 [CRITICAL] [loggingtest.py:23] >> my CRITICAL log

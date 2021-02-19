@@ -3,8 +3,6 @@ from django.conf.urls import url, include
 
 from . import views
 
-from . import views
-
 urlpatterns = [
     path('', views.home, name="home"),
     path('chattrain', views.chattrain, name="chattrain"),
